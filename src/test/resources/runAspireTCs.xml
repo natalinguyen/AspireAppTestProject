@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Aspireapp odoo">
+	<parameter name="url" value="https://aspireapp.odoo.com/" />
+	
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfigs.AllureTestListener" />
+	</listeners>
+	
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.odoo.aspireapp.ManufacturingOrderPage" />
+		</classes>
+	</test>
+	
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.odoo.aspireapp.ManufacturingOrderPage" />
+		</classes>
+	</test>
+</suite>
