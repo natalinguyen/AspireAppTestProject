@@ -1,0 +1,5 @@
+/target/
+/allure-json/
+/bin/
+/logs/
+/test-output/
