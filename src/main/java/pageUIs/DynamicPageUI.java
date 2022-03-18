@@ -16,14 +16,4 @@ public class DynamicPageUI {
 	public static final String DYNAMIC_SUB_MAIN_MENU_BY_MAINMENU_TEXT_AND_SUB_MENU_TEXT = "xpath=//div[@class='o_menu_sections']//span[text()='%s']/parent::button/following-sibling::div/a[text()='%s']";
 	public static final String DYNAMIC_COLUMN_INDEX_PRECEDING_ON_TABLE_BY_HEADER_NAME = "xpath=//th[contains(string(),'%s')]/preceding-sibling::th";
 	public static final String DYNAMIC_MENU_BRAND_ON_TOP_BAR = "xpath=//a[@class='dropdown-item o_menu_brand' and text()='%s']";
-
-	
-	
-	
-	
-	//tr/td/label[text()='Product Type']/parent::td/following-sibling::td/select
-	//tr/td/label[text()='Purchase UoM']/parent::td/following-sibling::td//input
-	//tr/td/label[text()='Sales Price']/parent::td/following-sibling::td//input
-	//tr/td/label[text()='Cost']/parent::td/following-sibling::td//input
-	//tr/td/label[text()='Product Category']/parent::td/following-sibling::td//input
 }

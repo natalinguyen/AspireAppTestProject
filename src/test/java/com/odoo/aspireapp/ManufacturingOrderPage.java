@@ -3,14 +3,17 @@ package com.odoo.aspireapp;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import io.qameta.allure.Description;
 import pageObjects.HomePageObject;
 import pageObjects.InventoryPageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.ManufacturingPageObject;
 import pageObjects.PageGenerateManager;
 import pageObjects.ProductPageObject;
+import reportConfigs.AllureTestListener;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import java.util.Random;
@@ -18,6 +21,7 @@ import java.util.Random;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 
+@Listeners(AllureTestListener.class)
 public class ManufacturingOrderPage extends BaseTest {
 
 	WebDriver driver;
@@ -25,7 +29,7 @@ public class ManufacturingOrderPage extends BaseTest {
 	String manufacturingOderId, productOnManufacturingOrderPage, quantityQty_producingOnManufacturingOrderPage,
 			quantityProduct_qtyOnManufacturingOrderPage, quantityProduct_uom_idOnManufacturingOrderPage;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "browser", "url"})
 	@BeforeTest
 	public void beforeTest(String browserName, String urlPage) {
 		driver = getDriverBrowser(browserName, urlPage);
@@ -35,7 +39,8 @@ public class ManufacturingOrderPage extends BaseTest {
 
 	}
 
-	@Test
+	@Description("Manufacturing Order page")
+	@Test(invocationCount = 1)
 	public void TC_01_Create_A_Manufacturing_Order() {
 		log.info("TC_01_Create_A_Manufacturing_Order - Step 01: Verify 'Aspire' logo displayed");
 		verifyTrue(loginPage.isAspireAppLogoDisplayed());

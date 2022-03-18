@@ -22,21 +22,7 @@ public class ManufacturingPageUI extends DynamicPageUI {
 	public static final String TEXTBOX_ON_COMPONENT_TABLE = "xpath=//td[@name='%s']";
 	public static final String DELETE_ICON_ON_SEARCH_ITEM_IN_SEARCH_TEXTBOX = "xpath=//div[@class='o_searchview_facet']//div[contains(string(), 'Manufacturing Orders')]/following-sibling::i";
 	public static final String CONSUMED_TEXTBOX_ON_COMPONENT_TABLE = "xpath=//td[@title='%s']/following-sibling::td[@name='quantity_done']/input";
-//	public static final String PRODUCT_TEXTBOX_ON_COMPONENT_TABLE = "xpath=(//tbody[@class='ui-sortable']//div[@class='o_field_many2one_selection']//input)[1]";
 	public static final String PRODUCT_ID_TEXTBOX_ON_COMPONENT_TABLE = "xpath=//td[@name='product_id']//div[@class='o_field_many2one_selection']//input[@type='text']";
 	public static final String PRODUCT_UOM_TEXTBOX_ON_COMPONENT_TABLE = "xpath=//td[@name='product_uom']//div[@class='o_field_many2one_selection']//input[@type='text']";
 	public static final String QUANTITY_DONE_TEXTBOX_ON_COMPONENT_TABLE = "xpath=//td[@name='quantity_done']//input[@type='text']";
-	
-
-	
-	//table[@class='o_list_table table table-sm table-hover table-striped o_list_table_ungrouped']//th[contains(string(),'Product')]/following-sibling::th
-
-
-	//input[@name='product_qty' and  not(@data-original-title)]
-	//input[@name='product_qty' and  not(@data-original-title)]/following-sibling::div//input
-	//div[@class='tab-pane active']//a[text()='Add a line']
-	//a[text()='Components']
-	//span[@name='qty_producing']
-	//span[@name='qty_producing']/parent::div/following-sibling::span[@name='product_qty']
-	//span[@name='product_uom_id']/span
 }

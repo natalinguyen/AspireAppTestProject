@@ -1,5 +1,5 @@
 echo "----Step 01: Set project path to variable-----"
-project_path="/Users/macintoshhd/git/Selenium-Practices/Hybrid-Maven-AspireApp"
+project_path="/Users/macintoshhd/git/Selenium-Practices/AspireAppProject"
 echo"------Step 02: Go to Project path folder"
 cd "$project_path"
 echo"------Step 03: Run the testcases"
