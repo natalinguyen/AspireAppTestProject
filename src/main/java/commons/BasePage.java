@@ -2,8 +2,10 @@ package commons;
 
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -89,6 +91,16 @@ public class BasePage {
 			driver.getCurrentUrl();
 		} catch (Exception e) {
 			Log.debug(e.getMessage());
+		}
+	}
+
+	public Set<Cookie> getAllCookies(WebDriver driver){
+		return driver.manage().getCookies();
+	}
+	
+	public void setCookies(WebDriver driver, Set<Cookie> cookies) {
+		for (Cookie cookie : cookies) {
+			driver.manage().addCookie(cookie);
 		}
 	}
 

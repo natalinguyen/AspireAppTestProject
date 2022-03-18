@@ -1,1 +1,17 @@
-{}
+{
+	"loginUserName": "user@aspireapp.com",
+	"loginPassword": "@sp1r3app",
+	"ProductPage": {
+		"productTypeOnProductPage": "Storable Product",
+		"uOMOnProductPage": "mm",
+		"salePriceOnProductPage": "200",
+		"productCategoryOnProductPage": "All",
+		"productTemplateCreatedMessage": "Product Template created",
+		"emptyStockOnQuanityPage": "Your stock is currently empty"
+	},
+	"ManufacturingOrderPage": {
+		"quantityOnMacfacturingOrderPage": "20",
+		"consumedOnMacfacturingOrderPage": "4",
+		"doneStatus": "Done"
+	}
+}

@@ -14,11 +14,10 @@ public class LoginPageObject extends BasePage{
 		this.driver = driver;
 	}
 	
-	@Step("Login app with {0} email and {1} password")
-	public void loginFormWithEmailAndPassword(String emailValue, String passwordValue ) {
+	@Step("Enter {0} email and {1} password on 'Login' form")
+	public void enterEmailAndPasswordInloginForm(String emailValue, String passwordValue ) {
 		enterValueIntoTextboxByLabel(driver, "Email", emailValue);
 		enterValueIntoTextboxByLabel(driver, "Password", passwordValue);
-		clickOnButton(driver, "Log in");
 	}
 
 	@Step("Is Aspire app Logo displayed")

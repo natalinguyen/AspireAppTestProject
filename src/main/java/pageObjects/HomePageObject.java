@@ -26,4 +26,9 @@ public class HomePageObject extends BasePage {
 		clickOnElement(driver, HomePageUI.LISTBOX_DISPLAYED, boxName);
 	}
 
+	public LoginPageObject openLoginPage(String loginPageURL) {
+		 openURLPage(driver, loginPageURL);
+		 return PageGenerateManager.getLoginPage(driver);
+	}
+
 }

@@ -80,7 +80,7 @@ public class ManufacturingPageObject extends BasePage {
 				String.valueOf(columnIndex));
 	}
 
-	@Step("Get text on Manufacturing Order page at {0}")
+	@Step("Get text on Manufacturing Order page at {0} label")
 	public String getTextOnManufacturingOrderPageByLabelAndSpan(String labelName) {
 		waitForElementVisible(driver, ManufacturingPageUI.GET_TEXT_MANUFACURING_ORDER_PAGE_BY_LABEL_AND_SPAN,
 				labelName);

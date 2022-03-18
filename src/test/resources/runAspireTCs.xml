@@ -16,7 +16,7 @@
 			<class name="com.odoo.aspireapp.ManufacturingOrderPage" />
 		</classes>
 	</test>
-	
+
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>

@@ -45,13 +45,13 @@ public class BaseTest {
 		if (browser == BROWSER.FIREFOX) {
 			WebDriverManager.firefoxdriver().browserVersion("95").setup();
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			firefoxOptions.addArguments("-private");
+//			firefoxOptions.addArguments("-private");
 			driver = new FirefoxDriver(firefoxOptions);
 
 		} else if (browser == BROWSER.CHROME) {
 			WebDriverManager.chromedriver().browserVersion("70").setup();
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--incognito");
+//			chromeOptions.addArguments("--incognito");
 			driver = new ChromeDriver(chromeOptions);
 
 		} else if (browser == BROWSER.SAFARI) {
@@ -146,8 +146,7 @@ public class BaseTest {
 	public void deleteAllFilesInReportNGScreenshot() {
 		try {
 			String workingDir = System.getProperty("user.dir");
-			String pathFolderDownload = workingDir + File.separator + "target" + File.separator + "allure-json"
-					+ File.separator;
+			String pathFolderDownload = workingDir + File.separator + "allure-json" + File.separator;
 			File file = new File(pathFolderDownload);
 			File[] listOfFiles = file.listFiles();
 			for (int i = 0; i < listOfFiles.length; i++) {
@@ -177,7 +176,7 @@ public class BaseTest {
 	}
 
 	@AfterSuite(alwaysRun = true)
-	protected void clenExecutablleDriver() {
+	protected void cleanExecutablleDriver() {
 		String cmd = "";
 
 		try {
