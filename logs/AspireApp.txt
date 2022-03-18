@@ -1,0 +1,49 @@
+[INFO ] [2022-03-18 14:14:03,440] TC_01_Pre-Condition - Step 01: Verify 'Aspire' logo displayed
+[INFO ] [2022-03-18 14:14:04,695]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:04,698] TC_01_Pre-Condition - Step 02: Log-in to web application with 
+[INFO ] [2022-03-18 14:14:10,988] TC_01_Pre-Condition - Step 03: Verify menu navigation bar displayed
+[INFO ] [2022-03-18 14:14:12,082]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:12,082] TC_01_Pre-Condition - Step 04: Navigate to 'Inventory' page
+[INFO ] [2022-03-18 14:14:15,516]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:15,517] TC_01_Pre-Condition - Step 05: Click 'Products' sub menu from 'Products' main menu
+[INFO ] [2022-03-18 14:14:20,170] TC_01_Pre-Condition - Step 06: Click on 'Create' button
+[INFO ] [2022-03-18 14:14:22,483] TC_01_Pre-Condition - Step 07: Enter value in 'Product name' textbox
+[INFO ] [2022-03-18 14:14:24,083] TC_01_Pre-Condition - Step 08: Select item from 'Product Type' dropdown
+[INFO ] [2022-03-18 14:14:25,174] TC_01_Pre-Condition - Step 09: Select item from 'Unit Of Measure' dropdown
+[INFO ] [2022-03-18 14:14:32,211] TC_01_Pre-Condition - Step 11: Enter value in 'Sale Price' textbox
+[INFO ] [2022-03-18 14:14:33,345] TC_01_Pre-Condition - Step 12: Select 'All' from 'Product Category' dropdown
+[INFO ] [2022-03-18 14:14:36,855] TC_01_Pre-Condition - Step 13: Click 'Save' button
+[INFO ] [2022-03-18 14:14:39,189] TC_01_Pre-Condition - Step 14: Verify information on 'Product detail' page
+[INFO ] [2022-03-18 14:14:40,263]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:41,337]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:42,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:43,480]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-03-18 14:14:44,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:45,653]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:45,654] TC_01_Pre-Condition - Step 15: Click 'Update Quantity' button
+[INFO ] [2022-03-18 14:14:47,962] TC_01_Pre-Condition - Step 16: Get nocontent view displayed: 'Your stock is currently empty'
+[INFO ] [2022-03-18 14:14:49,040]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:14:49,040] TC_01_Pre-Condition - Step 17: Click 'Create' button
+[INFO ] [2022-03-18 14:14:51,333] TC_01_Pre-Condition - Step 18: Enter value into 'Counted Quantity' textbox is larger than 10
+[INFO ] [2022-03-18 14:14:52,453] TC_01_Pre-Condition - Step 19: Click 'SAVE' button
+[INFO ] [2022-03-18 14:14:54,749] TC_01_Pre-Condition - Step 20: Click 'Home' menu
+[INFO ] [2022-03-18 14:14:57,143] TC_01_Create_A_Manufacturing_Order - Step 21:  Navigate to 'Manufacturing' feature
+[INFO ] [2022-03-18 14:14:59,439] TC_01_Create_A_Manufacturing_Order - Step 22: Click 'Create' button
+[INFO ] [2022-03-18 14:15:01,853] TC_01_Create_A_Manufacturing_Order - Step 23: Enter and select a created product name
+[INFO ] [2022-03-18 14:15:02,982] TC_01_Create_A_Manufacturing_Order - Step 24: Click 'Confirm' button
+[INFO ] [2022-03-18 14:15:05,278] TC_01_Create_A_Manufacturing_Order - Step 25: Update quantity of product
+[INFO ] [2022-03-18 14:15:06,548] TC_01_Create_A_Manufacturing_Order - Step 26: Add a product in component table
+[INFO ] [2022-03-18 14:15:14,926] TC_01_Create_A_Manufacturing_Order - Step 27: Click 'SAVE' button
+[INFO ] [2022-03-18 14:15:17,225] TC_01_Create_A_Manufacturing_Order - Step 28: Get information on 'Manufacturing order detail' page
+[INFO ] [2022-03-18 14:15:21,530] TC_01_Create_A_Manufacturing_Order - Step 29: Click 'Mark As Done' button
+[INFO ] [2022-03-18 14:15:23,846] TC_01_Create_A_Manufacturing_Order - Step 30: Click 'Manufacturing' main menu
+[INFO ] [2022-03-18 14:15:26,145] TC_01_Create_A_Manufacturing_Order - Step 31: Search WH/MO/02825
+[INFO ] [2022-03-18 14:15:31,827] TC_01_Create_A_Manufacturing_Order - Step 32: Verify information of productName, 'Quantity', 'UoM', 'Status'
+[INFO ] [2022-03-18 14:15:32,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:15:34,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:15:35,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:15:36,170]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-03-18 14:15:36,240] Browser is closed: firefox
+[INFO ] [2022-03-18 14:15:37,218] Close driver instance
+[INFO ] [2022-03-18 14:15:37,241] OS name = mac os x
+[INFO ] [2022-03-18 14:15:37,269] Run command line
